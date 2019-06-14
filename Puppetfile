@@ -2,9 +2,9 @@ forge 'https://forge.puppet.com'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-#mod 'puppetlabs/inifile',     '2.2.1'
-#mod 'puppetlabs/stdlib',      '4.25.1'
-#mod 'puppetlabs/concat',      '4.2.1'
+mod 'puppetlabs/inifile',     '2.2.1'
+mod 'puppetlabs/stdlib',      '4.25.1'
+mod 'puppetlabs/concat',      '4.2.1'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -15,3 +15,15 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'ntp',
+:git => 'https://github.com/rabbitheart/LA_puppet-ntp.git',
+:ref => 'master'
+
+mod 'role',
+:git => 'https://github.com/rabbitheart/LA_puppet-role.git',
+:ref => 'master'
+
+mod 'profile',
+:git => 'https://github.com/rabbitheart/LA_puppet-profile.git',
+:ref => 'master'
