@@ -23,3 +23,7 @@ mod 'role',
 mod 'profile',
 :git => 'git@github.com:tapleallwyn/puppet-profile.git',
 :ref => 'master'
+
+mod 'nginx',
+ :git => 'git@github.com:tapleallwyn/ally-nginx.git',
+ :ref => 'master'
