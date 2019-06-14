@@ -16,14 +16,10 @@ mod 'puppetlabs/concat',      '4.2.1'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'ntp',
-:git => 'https://github.com/rabbitheart/LA_puppet-ntp.git',
-:ref => 'master'
-
 mod 'role',
-:git => 'https://github.com/rabbitheart/LA_puppet-role.git',
+:git => 'git@github.com:tapleallwyn/puppet-role.git',
 :ref => 'master'
 
 mod 'profile',
-:git => 'https://github.com/rabbitheart/LA_puppet-profile.git',
+:git => 'git@github.com:tapleallwyn/puppet-profile.git',
 :ref => 'master'
